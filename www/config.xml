@@ -14,7 +14,7 @@
     <string>600</string>
     </gap:config-file>
 
-    <name>Rummikub</name>
+    <name>ChineseCheckers</name>
 
     <description>
         A multiplayer chinese checkers game.
@@ -141,7 +141,7 @@
     <gap:config-file platform="android" parent="/manifest/application" mode="add" >
       <activity
           android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-          android:name=".Rummikub" android:label="@string/app_name" android:screenOrientation="unspecified" android:windowSoftInputMode="adjustUnspecified|stateUnspecified">
+          android:name=".ChineseCheckers" android:label="@string/app_name" android:screenOrientation="unspecified" android:windowSoftInputMode="adjustUnspecified|stateUnspecified">
         <intent-filter>
           <action android:name="android.intent.action.MAIN"/>
           <category android:name="android.intent.category.LAUNCHER"/>
